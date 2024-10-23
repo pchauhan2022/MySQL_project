@@ -1,4 +1,4 @@
-# MySQL_project
+# HEALTHCARE MANAGEMENT SYSYTEM_MySQL
 
 ## PROJECT DESCRIPTION
 This Healthcare Management System built using MySQL manages key healthcare functions such as patient information, doctor details, appointments, medical records, billing, and staff management. It provides a structured approach to streamline hospital operations, with well-defined relationships between the tables for efficient data handling.

@@ -1,0 +1,104 @@
+PATIENTS RECORDS,,,,,
+,,,,,
+patient_id,name,age,gender,contact_info,medical_history
+1,Alice Smith,30,F,1234567890,None
+2,Bob Johnson,45,M,987654321,Allergies
+3,Carol White,29,F,2345678901,Diabetes
+4,David Brown,50,M,3456789012,Hypertension
+5,Eva Green,35,F,4567890123,None
+6,Frank Harris,60,M,5678901234,Heart Disease
+7,Grace Lee,40,F,6789012345,None
+8,Henry Wilson,32,M,7890123456,Allergies
+9,Irene Miller,55,F,8901234567,Diabetes
+10,Jack Thompson,28,M,9012345678,None
+11,Kim Lee,41,F,123456789,Heart Disease
+12,Liam Jones,47,M,1231231234,Hypertension
+13,Mia Garcia,25,F,2342342345,None
+14,Noah Martinez,36,M,3453453456,Allergies
+15,Olivia Taylor,52,F,4564564567,Diabetes
+16,Paul Walker,38,M,5675675678,None
+17,Quinn Scott,30,F,6786786789,Hypertension
+18,Ryan White,49,M,7897897890,Heart Disease
+19,Sara Johnson,31,F,8908908901,None
+20,Tom Harris,60,M,9019019012,Allergies
+,,,,,
+DOCTORS RECORDS,,,,,
+,,,,,
+,,,,,
+doctor_id,name,specialization,contact_info,department_id,
+1,Dr. Amy Smith,Cardiology,1234567890,1,
+2,Dr. Brian Lee,Neurology,987654321,2,
+3,Dr. Charles Brown,Orthopedics,2345678901,3,
+4,Dr. Diana King,Cardiology,3456789012,1,
+5,Dr. Edward Davis,Pediatrics,4567890123,4,
+6,Dr. Fiona White,Dermatology,5678901234,5,
+7,Dr. George Black,General Surgery,6789012345,6,
+8,Dr. Hannah Gray,Neurology,7890123456,2,
+9,Dr. Ian Green,Orthopedics,8901234567,3,
+10,Dr. Jane Wright,Cardiology,9012345678,1,
+,,,,,
+DEPARTMENT RECORDS,,,,,
+,,,,,
+department_id,department_name,head_of_department,,,
+1,Cardiology,Dr. Amy Smith,,,
+2,Neurology,Dr. Brian Lee,,,
+3,Orthopedics,Dr. Charles Brown,,,
+4,Pediatrics,Dr. Edward Davis,,,
+5,Dermatology,Dr. Fiona White,,,
+6,General Surgery,Dr. George Black,,,
+,,,,,
+APPOINTMENT RECORDS,,,,,
+,,,,,
+appointment_id,patient_id,doctor_id,appointment_date,status,
+1,1,1,1/15/2024,Completed,
+2,2,2,1/16/2024,Cancelled,
+3,3,3,1/17/2024,Completed,
+4,4,1,1/18/2024,Pending,
+5,5,4,1/19/2024,Completed,
+6,6,5,1/20/2024,Completed,
+7,7,2,1/21/2024,Pending,
+8,8,3,1/22/2024,Completed,
+9,9,1,1/23/2024,Cancelled,
+10,10,4,1/24/2024,Completed,
+,,,,,
+BILLING RECORDS,,,,,
+,,,,,
+bill_id,patient_id,total_amount,payment_status,,
+1,1,250,Paid,,
+2,2,100,Unpaid,,
+3,3,200,Paid,,
+4,4,300,Paid,,
+5,5,150,Unpaid,,
+6,6,450,Paid,,
+7,7,350,Unpaid,,
+8,8,100,Paid,,
+9,9,250,Unpaid,,
+10,10,400,Paid,,
+,,,,,
+MEDICAL RECORDS,,,,,
+,,,,,
+record_id,patient_id,doctor_id,diagnosis,treatment,
+1,1,1,None,Checkup,
+2,2,2,Allergies,Antihistamines,
+3,3,3,Diabetes,Insulin Therapy,
+4,4,1,Hypertension,Lifestyle Changes,
+5,5,4,None,Routine Checkup,
+6,6,5,Heart Disease,Medication,
+7,7,2,None,Routine Checkup,
+8,8,3,Allergies,Antihistamines,
+9,9,1,Diabetes,Insulin Therapy,
+10,10,4,None,Routine Checkup,
+,,,,,
+STAFF RECORD,,,,,
+,,,,,
+staff_id,name,role,contact_info,,
+1,Alice Smith,Nurse,1234567890,,
+2,Bob Johnson,Receptionist,987654321,,
+3,Carol White,Administrator,2345678901,,
+4,David Brown,Doctor,3456789012,,
+5,Eva Green,Technician,4567890123,,
+6,Frank Harris,Nurse,5678901234,,
+7,Grace Lee,Receptionist,6789012345,,
+8,Henry Wilson,Administrator,7890123456,,
+9,Irene Miller,Technician,8901234567,,
+10,Jack Thompson,Doctor,9012345678,,
